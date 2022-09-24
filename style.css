@@ -1,0 +1,106 @@
+body {
+    border-left: 5px solid lightgray;
+    padding: auto;
+    font-family: sans-serif;
+    min-height: 100vh;
+    max-width: 1000px;
+    margin: 50 auto;
+    padding: 1rem 2 rem 1 rem 2 rem;
+    
+}
+
+img {
+    width: 100%;
+}
+
+.nav1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+nav li{
+    list-style-type: none;
+    /* padding:  */
+}
+
+.nav1 li a{
+    list-style-type: none;
+    padding: 0rem;
+    color: lightgray;
+    
+}
+
+
+li {
+    color: lightgray
+}
+h1 {
+    color: tomato;
+    font-size: 45px;
+}
+
+h2 {
+    font-size: 30px;
+    
+}
+
+h3 {
+    color: lightgray;
+}
+
+header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: 30px;
+}
+
+
+ p:first-letter {
+    color: lightgrey;
+    float: left;
+    font-size: 6em;
+    line-height: 1;
+}
+
+.cont {
+    color: tomato;
+    font-weight: bold;
+}
+
+.container{
+    text-align: right;
+}
+
+main {
+    padding: 1rem 2rem;
+    
+}
+
+article {
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 4rem;
+    padding-bottom: 2rem;
+}
+
+.nav2 li a{
+    list-style-type: none;
+    padding: 0 5px;
+    color: tomato;
+    
+}
+
+.nav2{
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: lightgray;
+}
